@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+path {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 1.5;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+
+.axis-label {
+    fill: #000;
+    font-size: 16px;
+    text-anchor: middle;
+  }
+
+
+  path:nth-child(1) {
+    stroke: black;
+  }
+
+  path:nth-child(2) {
+    stroke: red;
+  }
+
+  path:nth-child(3) {
+    stroke: yellow;
+  }
+
+  path:nth-child(4) {
+    stroke: purple;
+  }
+
+  path:nth-child(5) {
+    stroke: green;
+  }
+
+  path:nth-child(6) {
+    stroke: grey;
+  }
+
+  path:nth-child(7) {
+    stroke:blue;
+  }
+
+  path:nth-child(8) {
+    stroke: pink;
+  }
+
+  .black {
+    background-color: black;
+  }
+  .red {
+    background-color: red;
+  }
+  .yellow {
+    background-color: yellow;
+  }
+  .purple {
+    background-color: purple;
+  }
+  .green {
+    background-color: green;
+  }
+  .grey {
+    background-color: grey;
+  }
+  .blue {
+    background-color: blue;
+  }
+
+  .pink {
+    background-color: pink;
+  }
+
+  .box{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  #legend{
+    display: flex;
+    justify-content: center;
+  }
+  span{
+    padding: 0px 20px;
+    display: flex;
+  }
